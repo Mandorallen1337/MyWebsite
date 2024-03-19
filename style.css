@@ -74,14 +74,68 @@
     transition: all 0.3s ease;
 }
 
+.links {    
+    font-size: 30px; 
+    color: #fff;
+    background-color: #ff0844;
+    background-image: linear-gradient(to top, #5208ff 0%, #9fffca 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;        
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;   
+
+}
+
+/* Contact Section start */
+/* Custom CSS for Contact Form */
+.contact-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-input,
+.contact-message {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 250px;
+}
+
+.contact-submit {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact-submit:hover {
+    background-color: #0056b3;
+}
+
+
+
+
 @media screen and (max-width: 960px) {
     .navbar-container {
         display: flex;
         justify-content: space-between;
         height: 80px;
         z-index: 1;
-        width: 100%;
-        max-width: 1300px;
+        width: 100%;        
         padding: 0;
     }
     
@@ -118,6 +172,8 @@
         margin: 5px auto;
         transition: all 0.3s ease;
         background-color: #fff;
+        display: block;
+        cursor: pointer;
         
     }
 
@@ -139,10 +195,7 @@
         transform: translate(5%, 20%);
     }    
 
-    .navbar-toggle .bar {
-        display: block;
-        cursor: pointer;
-    }
+   
 
     #mobile-menu.is-active .bar:nth-child(2) {
         opacity: 0;
@@ -159,12 +212,6 @@
 
 /* Top Section end */
 /* Hero Section start */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
 
 .hero {
     display: flex;

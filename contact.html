@@ -3,23 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/f0719a399a.js" crossorigin="anonymous"></script>
-    <title>Projects</title>
 </head>
 <body>
     <!-- Navbar -->
     <nav class="navbar">
         <div class = "navbar-container">
             <a href="/" id="navbar-logo"
-            ><i class="fas fa-gem"></i>Projects</a>
-
+            ><i class="fas fa-gem"></i>Contact</a>
             <div class="navbar-toggle" id="mobile-menu">
                 <span class="bar"></span>
                 <span class="bar"></span>
                 <span class="bar"></span>
             </div>
-
             <ul class="navbar-menu">
                 <li class="navbar-item">
                     <a href="/" class="navbar-link">Home</a>
@@ -34,31 +32,23 @@
                     <a href="contact.html" class="navbar-link">Contact Me</a>
                 </li>
             </ul>           
-
         </div>
      </nav>
     <!-- Hero Section -->
     <section class="hero">
         <div class="hero-container">
-            <img src="Images/programmer.png" alt="Me" class="hero-img">
-            <h1 class="hero-title">Projects</h1>
-            
-            <div class="project-item">
-                <img src="project1.jpg" alt="Project 1" class="hero-img">
-                <h2 class="project-title">Project 1</h2>
-                <p class="project-description">Description of Project 1</p>
+            <div class="contact-container">
+                <img src="Images/mail.png" alt="Mail Icon" class="hero-img">
+                <form action="mailto:your-email@example.com" method="post" enctype="text/plain" class="contact-form">
+                    <input type="text" name="name" placeholder="Your Name" required class="contact-input">
+                    <input type="email" name="email" placeholder="Your Email" required class="contact-input">
+                    <textarea name="message" placeholder="Your Message" required class="contact-message"></textarea>
+                    <button type="submit" class="contact-submit">Send</button>
+                </form>
             </div>
+        </div>
+    </section>
+    <script src="app.js"></script>
     
-            <!-- Project 2 -->
-            <div class="project-item">
-                <img src="project2.jpg" alt="Project 2" class="hero-img">
-                <h2 class="project-title">Project 2</h2>
-                <p class="project-description">Description of Project 2</p>
-            </div>
-            
-                
-    
-
-            <script src="app.js"></script>
 </body>
 </html>
