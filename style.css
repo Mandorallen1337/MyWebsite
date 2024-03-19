@@ -264,5 +264,19 @@
     margin-bottom: 1rem;     
 }
 
+.contact-submit {
+    padding: 10px 20px;
+    background-color: #f77062;
+    color: #fff;
+    border: none;    
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact-submit:hover {
+    background-color: #4837ff;
+    transition: all 0.3s ease;
+}
 
 
