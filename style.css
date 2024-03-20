@@ -25,8 +25,7 @@
     z-index: 1;
     width: 100%;
     padding: 0 auto;
-    max-width: 1300px;
-    margin: 0 50px;
+    max-width: 1300px;    
 }
 
 #navbar-logo {
@@ -87,6 +86,18 @@
 
 }
 
+.links:hover {
+    color: #f77062;
+    background-image: linear-gradient(to top, #ff0844 0%, #ffb19f 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;    
+    transition: all 0.3s ease;
+
+}
+
 /* Contact Section start */
 /* Custom CSS for Contact Form */
 .contact-container {
@@ -100,6 +111,7 @@
 .contact-form {
     display: flex;
     flex-direction: column;
+    margin: 30px;
 }
 
 .contact-input,
@@ -114,20 +126,22 @@
 
 .contact-submit {
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: #f77062;
     color: #fff;
-    border: none;
+    border: none;    
     border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
 }
 
 .contact-submit:hover {
-    background-color: #0056b3;
+    background-color: #4837ff;
+    transition: all 0.3s ease;
 }
 
+/* Contact Section end */
 
-
+/* Mobile section starts */
 
 @media screen and (max-width: 960px) {
     .navbar-container {
@@ -159,7 +173,7 @@
         height: 50vh;    
         opacity: 1;
         transition: all 0.5s ease;
-        font-size: 1.6rem;
+        font-size: 1.6rem;               
     }
 
     #navbar-logo {
@@ -208,9 +222,15 @@
     #mobile-menu.is-active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
     }
+    .contact-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
 }
 
-/* Top Section end */
+/* Mobile section ends */
 /* Hero Section start */
 
 .hero {
@@ -226,7 +246,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    overflow: auto; 
+    overflow: auto;
 }   
 
 .hero-container {
@@ -264,19 +284,7 @@
     margin-bottom: 1rem;     
 }
 
-.contact-submit {
-    padding: 10px 20px;
-    background-color: #f77062;
-    color: #fff;
-    border: none;    
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-}
+/* Hero Section end */
 
-.contact-submit:hover {
-    background-color: #4837ff;
-    transition: all 0.3s ease;
-}
 
 
