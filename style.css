@@ -197,9 +197,10 @@
 
 .hero-img {
     border-radius: 50%;
-    width: 300px;
-    height: 300px;   
-    margin-bottom: 1rem;    
+    width: 250px;
+    height: 250px;   
+    
+   
 }
 
 /* Hero Section end */
@@ -275,8 +276,8 @@
     .hero-container {
         display: grid;
         justify-content: center;
-        align-items: center;
-        height: 100vh;       
+        align-items: grid;
+        height: 80vh;       
         color: #fff;    
         background-color: #131313;
         position: center; 
