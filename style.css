@@ -203,6 +203,38 @@
    
 }
 
+/* Projects Section start */
+
+.project-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+}
+
+.project-item {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-img {
+    width: 100%;
+    height: auto;    
+    border-radius: 5px;
+}
+
+.project-title {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.project-description {
+    margin-top: 10px;    
+}
+
+/* Projects Section end */
+
 /* Hero Section end */
 
 /* Mobile section starts */
