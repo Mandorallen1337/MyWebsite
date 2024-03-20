@@ -192,7 +192,7 @@
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
     margin-bottom: 1rem;
-    background-clip: text;    
+    background-clip: text;  
 }
 
 .hero-img {
@@ -202,7 +202,7 @@
     
    
 }
-
+/* Hero Section end */
 /* Projects Section start */
 
 .project-container {
@@ -218,11 +218,7 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.project-img {
-    width: 100%;
-    height: auto;    
-    border-radius: 5px;
-}
+
 
 .project-title {
     font-size: 1.5rem;
@@ -235,7 +231,7 @@
 
 /* Projects Section end */
 
-/* Hero Section end */
+
 
 /* Mobile section starts */
 
@@ -307,8 +303,7 @@
 
     .hero-container {
         display: grid;
-        justify-content: center;
-        align-items: grid;
+        justify-content: center;        
         height: 80vh;       
         color: #fff;    
         background-color: #131313;
@@ -318,9 +313,17 @@
     .hero-text{
         text-align: center;
         font-size: 1 rem;               
-    }   
-   
+    }      
         
+    .hero-img {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        margin: 0 auto;
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+    }
    
 
     #mobile-menu.is-active .bar:nth-child(2) {
