@@ -206,27 +206,55 @@
 /* Projects Section start */
 
 .project-container {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    gap: 20px;
+    display: block;
+    margin: 20px;
+    padding: 20px;
+
 }
 
 .project-item {
-    background-color: #f9f9f9;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 15px;
+
 }
 
+.project-img {
+    margin-top: 15px;
+    width: 300px;
+    height: 200px;
+    object-fit: fill;
+    border-radius: 5px;
+    
+}
 
 
 .project-title {
     font-size: 1.5rem;
     margin-top: 10px;
+    width: 300px;
+    color: white;
+    background-image: linear-gradient(to top, #ff0844 0%, #ffb19f 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    background-clip: text;
 }
 
 .project-description {
-    margin-top: 10px;    
+    margin-top: 10px; 
+    width: 300px;   
+    background-image: linear-gradient(to top, #ff0844 0%, #ffb19f 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    background-clip: text;
+    word-wrap: break-word;
+
 }
 
 /* Projects Section end */
