@@ -31,4 +31,4 @@ Normalize.css for CSS normalization.
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Feel free to customize this README according to your preferences and additional details about your website!
+
